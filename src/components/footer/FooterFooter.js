@@ -3,40 +3,36 @@
  */
 export default function FooterFooter() {
     return (
-        <div>
+        <div style={{ backgroundColor: "#f8f5ef" }}>
+            <div class="container text-center" style={{ fontSize: 10 }}>
+                <nav className="hstack gap-2 justify-content-center py-2">
+                    <div>
+                        <a href="#">User Agreement</a>
+                    </div>
+                    <div className="vr"></div>
+                    <div>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div className="vr"></div>
+                    <div>
+                        <a href="#">Ad Choices</a>
+                    </div>
+                    <div className="vr"></div>
+                    <div>
+                        <i class="bi bi-toggle-on"></i>
+                    </div>
+                    <div>
+                        <a href="#">Cookie Settings</a>
+                    </div>
+                </nav>
+                <p className="py-4 m-0">© In a maximus sem. Nullam <a href="#">User Agreement</a> tortor at elit vestibulum, id bibendum est pulvinar. Aenean consectetur a tortor ut sodales. 
+                    Morbi varius ornare eros, id ultricies ante accumsan nec. Donec fermentum, massa sed tempor pharetra, sapien lacus dapibus diam, 
+                    eu bibendum nulla dolor sed mi. Aenean ac auctor lorem, eget mollis sapien. Fusce sodales, nulla sit amet rutrum scelerisque, nisi ex commodo ante, 
+                    ut venenatis dui mi ac orci. Donec cursus <a href="#">Privacy Policy</a> id orci posuere, a aliquet risus elementum. Sed diam turpis, elementum in felis ut, auctor accumsan mi. 
+                    Aenean egestas suscipit sollicitudin. Proin sapien velit, tempus sit amet aliquam et, dignissim eu nisi. Nullam ut sapien fringilla, 
+                    vehicula felis vulputate, aliquet ligula. Mauris nec tristique neque, sit amet finibus ante.
+                </p>
+            </div>
         </div>
     );
-    ```
-    <div class="footer__footer">
-        <div class="container ">
-            <ul class="ul list--unstyled list--inline">
-                <li>
-                    <a href="https://www.bizjournals.com/useragreement">User Agreement</a>
-                </li>
-                <li>&nbsp; | &nbsp;</li>
-                <li>
-                    <a href="https://www.bizjournals.com/privacy">Privacy Policy</a>
-                </li>
-                <li>&nbsp; | &nbsp;</li>
-
-                <li>
-                    <a href="https://www.bizjournals.com/privacy#ToCV">Ad Choices</a>
-                </li>
-                <li>&nbsp; | &nbsp;</li>
-                <li>
-                    <img src="./Nashville Business News - Nashville Business Journal_files/privacyoptions29x14.png"
-                        alt="Your Privacy Choices"> <button id="ot-sdk-btn" type="button" role="button"
-                        class="ot-sdk-show-settings btn btn--link">Cookie Settings</button>
-                </li>
-            </ul>
-            <p>© 2024 American City Business Journals. All rights reserved. Use of and/or
-                registration on any portion of this site constitutes acceptance of our
-                <a href="https://www.bizjournals.com/useragreement">User Agreement</a> (updated April 19, 2024)
-                and <a href="https://www.bizjournals.com/privacy">Privacy Policy</a> (updated December 19, 2023).
-                The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used,
-                except with the prior written permission of American City Business Journals.
-            </p>
-        </div>
-    </div>
-    ```
 }
