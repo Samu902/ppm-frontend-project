@@ -1,4 +1,7 @@
 import { useState } from "react";
+import FirstHeader from "./header/FirstHeader";
+import SecondHeader from "./header/SecondHeader";
+import ThirdHeader from "./header/ThirdHeader";
 
 /**
  * Page header
@@ -9,23 +12,9 @@ export default function Header() {
 
     return (
         <header>
-            <nav className="hstack gap-2 p-2 bg-light border-bottom">
-                <div>
-                    <b>THE LOREM IPSUM JOURNALS</b>
-                </div>
-                <div className="vr"></div>
-                <div className="me-auto">
-                    <b>Select a city</b>
-                    <i className="bi bi-chevron-down" role="button" onClick={() => alert("ciao")}></i>
-                </div>
-                <div>
-                    <b>Sign In</b>
-                    <i className="bi bi-chevron-down" role="button" onClick={() => alert("ciao")}></i>
-                </div>
-            </nav>
-            <nav>
-
-            </nav>
+            <FirstHeader />
+            <SecondHeader />
+            <ThirdHeader />
         </header>
     );
     {
