@@ -1,9 +1,19 @@
+import FirstSection from './main/FirstSection';
+import SecondSection from './main/SecondSection';
+import ThirdSection from './main/ThirdSection';
+
 /**
  * Page main content
  */
 export default function MainContent() {
     return (
         <div>
+            <div className="p-5 bg-light"></div>
+            <FirstSection />
+            <div className="p-5 bg-light"></div>
+            <SecondSection />
+            <div className="p-5 bg-light"></div>
+            <ThirdSection />
         </div>
     );
     {
