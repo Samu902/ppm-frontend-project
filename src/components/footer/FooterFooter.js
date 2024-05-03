@@ -4,7 +4,7 @@
 export default function FooterFooter() {
     return (
         <div style={{ backgroundColor: "#f8f5ef" }}>
-            <div class="container text-center" style={{ fontSize: 10 }}>
+            <div className="container text-center" style={{ fontSize: 10 }}>
                 <nav className="hstack gap-2 justify-content-center py-2">
                     <div>
                         <a href="#">User Agreement</a>

@@ -1,9 +1,111 @@
 /**
  * Page footer's body
  */
-export default function FooterBody() {
+export default function FooterBody() {          //da rivedere i dropdown e l'immagine placeholder
+
     return (
-        <div>
+        <div style={{ backgroundColor: "#f8f5ef" }}>
+            <div className="container">
+                <div className="row py-3">
+                    <div className="col-md-2">
+                        <h5 className="fw-bold uppercase">Sit amet</h5>
+                        <ul className="nav flex-column gap-2">
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Lorem ipsum dolor</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nullam pellentesque</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nulla ac augue</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Donec venenatis</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Cras ut mi</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nullam augue</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Lorem ut mi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-md-2">
+                        <img className="mt-5" src="favicon.ico" width={100} height={100} />
+                    </div>
+                    <div className="col-md-2">
+                        <h5 className="fw-bold uppercase">Nulla & augue</h5>
+                        <ul className="nav flex-column gap-2">
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Cras ut mi</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nullam pellentesque</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Lorem ipsum dolor</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Donec venenatis</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nulla ac augue</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-md-2">
+                        <h5 className="fw-bold uppercase">Donec & venerius</h5>
+                        <ul className="nav flex-column gap-2">
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nullam pellentesque</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nulla ac augue</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-md-2">
+                        <h5 className="fw-bold uppercase">Sonarem lollibus</h5>
+                        <div className="row">
+                            <a className="col-3" href="#"><i className="bi bi-twitter"></i></a>
+                            <a className="col-3" href="#"><i className="bi bi-linkedin"></i></a>
+                        </div>
+                        <div className="row">
+                            <a className="col-3" href="#"><i className="bi bi-facebook"></i></a>
+                            <a className="col-3" href="#"><i className="bi bi-instagram"></i></a>
+                        </div>
+                        <h5 className="fw-bold uppercase mt-3">Stibus captirem</h5>
+                        <ul className="nav flex-column gap-2">
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Orci varius</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-md-2">
+                        <h5 className="fw-bold uppercase">Ipsum</h5>
+                        <ul className="nav flex-column gap-2">
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Donec venenatis</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Lorem ipsum dolor</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Cras ut mi</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nulla ac augue</a>
+                            </li>
+                            <li>
+                                <a href="#" className="link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Nullam pellentesque</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     );
     ```
@@ -11,7 +113,7 @@ export default function FooterBody() {
         <div class="container ">
             <div class="row">
                 <div class="1/1 subscriber-promo md__1/3">
-                    <h4 class="link-list-title">Subscribers</h4>
+                    <h5 class="link-list-title">Subscribers</h5>
                     <div class="row">
                         <div class="md__1/2">
                             <ul class="link-list">
@@ -63,8 +165,9 @@ export default function FooterBody() {
                         </div>
                     </div>
                 </div>
+
                 <div class="1/1 md__1/6">
-                    <h4 class="link-list-title">About &amp; Contact</h4>
+                    <h5 class="link-list-title">About &amp; Contact</h5>
                     <ul class="link-list">
                         <li data-ct="2016 Footer : About Us">
                             <a href="https://www.bizjournals.com/nashville/about-us">
@@ -94,7 +197,7 @@ export default function FooterBody() {
                     </ul>
                 </div>
                 <div class="1/1 md__1/6">
-                    <h4 class="link-list-title">Apps &amp; Syndication</h4>
+                    <h5 class="link-list-title">Apps &amp; Syndication</h5>
                     <ul class="link-list">
                         <li data-ct="2016 Footer : Mobile Apps">
                             <a href="https://www.bizjournals.com/nashville/apps">
@@ -109,7 +212,7 @@ export default function FooterBody() {
                     </ul>
                 </div>
                 <div class="1/1 md__1/6">
-                    <h4 class="link-list-title">Follow Us</h4>
+                    <h5 class="link-list-title">Follow Us</h5>
                     <div class="social-follow-bizj">
                         <a href="https://twitter.com/nashvillebiz"
                             class="btn btn--social btn--twitter btn--twitter--footer u-float-left"
@@ -137,7 +240,7 @@ export default function FooterBody() {
                         </a>
                     </div>
                     <div class="multi_row_column">
-                        <h4 class="link-list-title">Newsletters</h4>
+                        <h5 class="link-list-title">Newsletters</h5>
                         <ul class="link-list">
                             <li data-ct="2016 Footer : Sign Up Now">
                                 <a href="https://www.bizjournals.com/nashville/newsletters">
@@ -148,7 +251,7 @@ export default function FooterBody() {
                     </div>
                 </div>
                 <div class="1/1 md__1/6">
-                    <h4 class="link-list-title">ACBJ</h4>
+                    <h5 class="link-list-title">ACBJ</h5>
                     <ul class="link-list">
                         <li data-ct="2016 Footer : American City Business Journals">
                             <a href="https://www.acbj.com/">
