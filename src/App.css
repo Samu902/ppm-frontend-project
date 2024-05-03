@@ -1,0 +1,15 @@
+.serif {
+    font-family: 'Guardian Text Egyptian ACBJ Web', Georgia, 'Times New Roman', serif;
+}
+
+.sans-serif {
+    font-family: 'Graphik Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #507e99;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
