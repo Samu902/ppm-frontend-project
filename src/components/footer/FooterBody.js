@@ -34,7 +34,7 @@ export default function FooterBody() {          //da rivedere i dropdown e l'imm
                         </ul>
                     </div>
                     <div className="col-md-2">
-                        <img className="mt-5" src="favicon.ico" width={100} height={100} />
+                        <img className="mt-5" src="https://placehold.co/100x100/png" />
                     </div>
                     <div className="col-md-2">
                         <h5 className="fw-bold uppercase">Nulla & augue</h5>

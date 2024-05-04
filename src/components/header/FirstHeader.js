@@ -3,7 +3,7 @@
  */
 export default function FirstHeader() {
     return (
-        <nav className="hstack gap-2 p-2 bg-light border-bottom" style={{ fontSize: 12 }}>
+        <nav className="hstack gap-2 p-2 bg-secondary-subtle border-bottom" style={{ fontSize: 12 }}>
             <div>
                 <b>THE LOREM IPSUM JOURNALS</b>
             </div>
