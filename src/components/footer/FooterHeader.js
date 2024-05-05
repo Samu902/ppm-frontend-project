@@ -3,7 +3,7 @@
  */
 export default function FooterHeader() {
     return (
-        <div className="bg-light border">
+        <div className="border pt-3 pb-1" style={{ backgroundColor: "#edeae4" }}>
             <div className="container">
                 <div className="text-end">
                     <a className="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" href="javascript:void(0);" onClick={() => alert("Scrolla su!") /* window.scrollTo(0, 0) */}>
