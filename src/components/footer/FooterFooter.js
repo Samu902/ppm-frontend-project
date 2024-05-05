@@ -19,7 +19,7 @@ export default function FooterFooter() {
                     </div>
                     <div className="vr"></div>
                     <div>
-                        <i class="bi bi-toggle-on"></i>
+                        <i className="bi bi-toggle-on"></i>
                     </div>
                     <div>
                         <a href="#">Cookie Settings</a>
