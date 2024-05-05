@@ -15,7 +15,7 @@ export default function SecondHeader() {
                 Rebellis augem
             </div>
             <div>
-                <button className="btn text-white uppercase bt-rounded-0" style={{ backgroundColor: "#256686" }}>Troii bastenti</button>
+                <button className="btn text-white uppercase bt-rounded-0 px-5" style={{ backgroundColor: "#256686" }}>Troii bastenti</button>
             </div>
             <div className="pe-4" style={{ fontSize: 15 }}>
                 <i className="bi bi-search" role="button" onClick={() => alert("ciao")}></i>
